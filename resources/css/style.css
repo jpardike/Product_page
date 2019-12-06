@@ -1,7 +1,46 @@
+html,
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 100%;
+}
 
+h2 {
+  font-size: 3rem;
+}
 
-  /*  font-family: 'Source Sans Pro', sans-serif; */
+h4 {
+  font-size: 2rem;
+}
 
 #logo {
     font-family: 'Lora', serif;
+}
+
+.bg {
+  background-image: url("../images/yellow-and-white-stratocaster-electric-guitar-164920-85.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  position: relative;
+}
+
+.hero_text {
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+}
+
+#quote {
+  font-style: italic;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: auto;
 }
