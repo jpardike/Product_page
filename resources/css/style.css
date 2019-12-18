@@ -4,6 +4,10 @@ body {
   height: 100%;
 }
 
+.fa-guitar {
+  color: slategray;
+}
+
 h1 {
   font-size: 5rem;
 }
@@ -76,4 +80,8 @@ div > img {
 
 .card-text {
   white-space: nowrap;
+}
+
+#form {
+  background-color: rgba(255, 255, 255, 0.2);
 }

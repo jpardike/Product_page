@@ -46,12 +46,124 @@
     </div>
 
     <div class="container-fluid text-light">
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col col-md-8 p-4">
                 <h2 class="section-title">Building Process</h2>
-                <p></p>
+                <p>A great musician performs their music with a tremenduos amount of passion. Our team here at Josh's Guitars build our instruments with the utmost care and passion so the owner can worry about what matters most to them. The music. We would be lying if we said that our guitars will make you write better music, but in some ways, taking the worry of whether or not your instrument can keep up with you, helps you be a better musician. You don't cut corners when it comes to your craft, so neither do we. We provide the most prized materials with our combined knowledge of 150 years of making great guitars to give you an instrument you will never want to put down. We start with recieving an order. After getting in touch and reviewing the order and making any changes that are nessecary, the proccess of making the guitar can start. Depending on the materials and the amount of custom options that are involved, each instrument can vary greatly on when it will be completed. Thanks for choosing us for your journey.</p>
             </div>
         </div>
+        <div class="row justify-content-center">
+            <div class="col col-md-8">
+                <h2 class="section-title">Things To Consider</h2>
+                <p>When it comes to ordering a custom guitar, one would assume that our customers have an ecstensive knowledge about the different components that make the instrument. Still, we at Josh's guitars recomend that you do your research to get the best instrumen that we can make for you. One of the best ways to do that is to go to your local musical instrument store and try a few different guitars out. Also, the internet is great place to read and watch videos on really any topic. What kind of guitar does your favorite guitarist use? What makes the tone of their instrument so appealing? If you have any questions or if you want our input, then we will gladly help you in any way we can.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 p-4 shadow-lg" id="form">
+                <h2 class="section-title">Order Form</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="body-shape">Body Shape</label>
+                        <select class="form-control" id="body-shape">
+                            <option>Strat</option>
+                            <option>Super Strat</option>
+                            <option>Les Paul</option>
+                            <option>V Shape</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="body-wood">Body Wood</label>
+                        <select class="form-control" id="body-wood">
+                            <option>Alder</option>
+                            <option>Ash</option>
+                            <option>Bocote</option>
+                            <option>Koa</option>
+                            <option>Sapele</option>
+                            <option>Spruce</option>
+                            <option>Walnut</option>
+                            <option>Ziricote</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="neck-wood">Neck Wood</label>
+                        <select class="form-control" id="neck-wood">
+                            <option>Maple</option>
+                            <option>Walnut</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="fretboard-wood">Fretboard Wood</label>
+                        <select class="form-control" id="fretboard-wood">
+                            <option>Ebony</option>
+                            <option>Maple</option>
+                            <option>Rosewood</option>
+                            <option>Wenge</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="body-finish">Body Finish</label>
+                        <select class="form-control" id="body-finish">
+                            <option>Matte</option>
+                            <option>Gloss</option>
+                            <option>Oil Rub(Bare Wood Only)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="pickup-config">Pickup Configuration</label>
+                        <select class="form-control" id="pickup-config">
+                            <option>SSS</option>
+                            <option>HSS</option>
+                            <option>HSH</option>
+                            <option>HH</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="hardware-color">Hardware Color</label>
+                        <select class="form-control" id="hardware-color">
+                            <option>Chrome</option>
+                            <option>Black</option>
+                            <option>Gold</option>
+                            <option>Nickle</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="hardware">Hardware</label>
+                        <input type="text" class="form-control" id="hardware" placeholder="Please be specific">
+                    </div>
+                    <div class="form-group">
+                        <label for="special">Special Requests</label>
+                        <input type="text" class="form-control" id="special" placeholder="Any custom requests">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                </form>
+                <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#submit-modal">Submit</button>
+                    <div class="modal fade" id="submit-modal" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content text-dark">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="submit-modal-label">Order Placed</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Thank you for placing your order! We will get in touch with you shortly to go over your order to make sure you get exactly what you want. Thanks again for your order and for choosing Josh's Guitars</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <footer class="text-light">
+            <a href="#">Contact</a>
+            <p>Copyright 2019, Josh's Guitars</p>
+        </footer>
     </div>
 
       
