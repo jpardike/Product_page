@@ -65,14 +65,30 @@
                     <div class="form-group">
                         <input type="email" class="form-control" id="emailInput" placeholder="Enter Your Email">
                     </div>
-                    <button type="submit" class="btn btn-primary">Get Started</button>
                 </form>
+                <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#submit-modal">Get Started</button>
+                <div class="modal fade" id="submit-modal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content text-dark">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="submit-modal-label">Request received</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Thank you for requesting a quote! We will email you a break down of our pricing to help you get a better idea of the cost of the different components of our guitars and to help you decide what works in your budget. Again, Thank You!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <footer class="text-light">
-            <a href="#">Contact</a>
+            <a href="about.html">Contact</a>
             <p>Copyright 2019, Josh's Guitars</p>
         </footer>
     </div>
